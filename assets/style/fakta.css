@@ -1,0 +1,48 @@
+@import url(header.css);
+@import url(kort.css);
+@import url(button.css);
+@import url(footer.css);
+
+.container{
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: flex-end;
+    margin: 0 4%;
+}
+
+@media screen and (min-width: 769px){
+    .img{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        min-height: 500px;
+        margin: 0 0 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .wrapper{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(../Img/Top.jpg);
+        min-height: 500px;
+        margin: 0px 0 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ }
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-image: url(../Img/Top.jpg);
+        min-height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
